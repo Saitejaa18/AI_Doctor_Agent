@@ -8,7 +8,7 @@ st.title("🧠 AI Doctor Brain")
 st.write("Upload a medical image and ask a diagnostic question.")
 
 # Step 1: Input API Key
-GROQ_API_KEY = st.text_input("Enter your API Key:", type="password")
+GROQ_API_KEY = st.text_input("Enter your GROQ API Key:", type="password")
 
 # Step 2: Upload image and enter query
 uploaded_image = st.file_uploader("Upload an image (e.g., MRI, X-ray, etc.)", type=["jpg", "jpeg", "png"])
